@@ -1,0 +1,12 @@
+package mx.com.everis.tallerjava.test;
+
+public class Testing {
+
+	public static void main(String[] args) {
+
+	}
+	
+	void getNombre(String nombre){
+		System.out.println("Tu nombre es:"+ nombre);
+	}
+}

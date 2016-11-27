@@ -1,0 +1,15 @@
+package mx.com.everis.certjava.clases;
+
+/*
+ * import
+ * import static
+ */
+import mx.com.everis.certjava.interfaces.*;
+import mx.com.everis.certjava.clases.*;
+
+/*
+ * Modificadores de acceso: private, default(package),protected, public
+ */
+public class Runner extends Person implements Athlete{
+
+}

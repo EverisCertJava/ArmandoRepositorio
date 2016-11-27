@@ -1,0 +1,40 @@
+package mx.com.everis.certjava.clases;
+
+public class Persona {
+	
+	/*
+	 * Atributos
+	 * Java es fuertemente tipiado
+	 */
+	public String sexo;
+	public String nombre;
+	public String apellido;
+	public int edad;
+	public String nacionalidad;
+	public String fechaDeNacimiento;
+	
+	/*
+	 * Acciones
+	 */
+	public void correr(){
+		
+	}
+	
+	public void comer(){
+		
+	}
+	
+	public void beber(){
+		
+	}
+
+}
+
+/*
+ * Modificadores de Acceso:
+ * 
+ *  Public
+ *  Protected
+ *  Package
+ *  private
+ */

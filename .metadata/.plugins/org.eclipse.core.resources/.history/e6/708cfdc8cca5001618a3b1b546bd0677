@@ -1,0 +1,28 @@
+package mx.com.everis.certjava.clases;
+
+public class Persona {
+	
+	/*
+	 * Atributos
+	 */
+	public String sexo;
+	public String nombre;
+	public String apellido;
+	public int edad;
+	public String nacionalidad;
+	public String fechaDeNacimiento;
+	
+	/*
+	 * Acciones
+	 */
+
+}
+
+/*
+ * Modificadores de Acceso:
+ * 
+ *  Public
+ *  Protected
+ *  Package
+ *  private
+ */

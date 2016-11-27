@@ -1,0 +1,5 @@
+package mx.com.everis.tallerjava.ejemplo;
+
+ abstract public class Persona {
+
+}

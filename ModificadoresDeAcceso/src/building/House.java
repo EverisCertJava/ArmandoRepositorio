@@ -1,0 +1,11 @@
+package building;
+
+import library.Book;
+
+public class House {
+	public House(){
+		Book book =new Book();
+		//book.author="ABC";//No se tiene acceso ya que no esta en el mismo paquete(necesita extends).
+		//book.modifyTemplate();//No se tiene acceso ya qeu no esta en el mismo paquete(necesita extends).
+	}
+}

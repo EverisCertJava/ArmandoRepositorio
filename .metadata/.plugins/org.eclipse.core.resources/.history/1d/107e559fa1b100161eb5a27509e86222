@@ -1,0 +1,17 @@
+package com.mx.everis.tallerjava.testing;
+
+import com.mx.everis.tallerjava.clasepadre.*;
+import com.mx.everis.tallerjava.claseshijas.*;
+import com.mx.everis.tallerjava.general.*;
+
+public class TestPolimorfismo {
+	public static void main(String args[]){
+		
+		Liquido liquidoGeneral = new Liquido();
+		Cafe liquidoCafe=new Cafe();
+		Leche liquidoLeche = new Leche();
+		
+		Taza miTaza = new Taza();
+		
+	}
+}

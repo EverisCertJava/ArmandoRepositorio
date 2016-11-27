@@ -1,0 +1,14 @@
+package mx.com.everis.tallerjava.clases;
+
+public final class Persona {
+	final String nombre;
+	Persona(){
+		nombre = "Armando2";
+	}
+	public final void getNombre(String nombre){
+		System.out.println("Mi comportamiento en persona:"+ nombre);
+	}
+	final void Person(){
+		System.out.println("la..la..la..");
+	}
+}

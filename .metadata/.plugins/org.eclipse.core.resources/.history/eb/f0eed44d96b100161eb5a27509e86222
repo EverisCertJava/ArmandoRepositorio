@@ -1,0 +1,11 @@
+package mx.com.everis.tallerjava.staticimport;
+
+public class StaticImport {
+	
+	public static final String lugar = "Everis";
+	
+	public static void getName(){
+		String name = null;
+		name="Armando";
+	}
+}

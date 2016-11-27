@@ -1,0 +1,19 @@
+package com.mx.everis.tallerjava.general;
+
+import com.mx.everis.tallerjava.clasepadre.*;
+import com.mx.everis.tallerjava.claseshijas.*;
+
+public class Taza {
+	
+	Liquido liquido;
+	public void agregarLiquido(Liquido liquido){
+		liquido.batir();
+		if (liquido instanceof Cafe){
+			System.out.println("Es cafe");
+		} else if (liquido instanceof Leche){
+			System.out.println("Es Leche");
+		}else if(liquido instanceof Liquido){
+			System.out.println("Es Liquido general");
+		}
+	}
+}

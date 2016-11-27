@@ -1,0 +1,17 @@
+package mx.com.everis.tallerjava.ejemplo;
+
+ abstract public class Persona implements MiInterface {
+	 /*
+	  * Metodo abstracto
+	  */
+	 public abstract void getPersona();
+	 
+	 public abstract void getC();
+	 /*
+	  * Metodo no abstracto
+	  */
+	 public void getNombre(){
+		 
+	 }
+	 
+}

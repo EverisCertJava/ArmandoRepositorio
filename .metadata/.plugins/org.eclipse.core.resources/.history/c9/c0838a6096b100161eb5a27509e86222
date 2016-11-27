@@ -1,0 +1,8 @@
+package mx.com.everis.tallerjava.staticimport;
+
+public class StaticImport2 {
+	public static void getName(){
+		String name = null;
+		name="Armando";
+	}
+}

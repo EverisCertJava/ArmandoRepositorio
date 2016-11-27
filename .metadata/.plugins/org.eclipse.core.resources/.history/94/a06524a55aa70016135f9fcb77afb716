@@ -1,0 +1,10 @@
+package mx.com.everis.certjava.test;
+
+import mx.com.everis.certjava.test.*;
+
+public class Testing {
+
+	public static void main (String args []){
+		Runner r = new Runner();
+	}
+}

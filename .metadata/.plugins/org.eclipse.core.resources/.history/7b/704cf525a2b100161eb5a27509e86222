@@ -1,0 +1,7 @@
+package com.mx.everis.tallerjava.claseshijas;
+
+public class Cafe {
+	public void batir(){
+		System.out.println("Batir");
+	}
+}

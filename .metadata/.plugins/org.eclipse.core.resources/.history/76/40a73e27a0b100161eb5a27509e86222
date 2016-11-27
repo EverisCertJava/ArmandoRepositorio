@@ -1,0 +1,7 @@
+package com.mx.everis.tallerjava.general;
+
+public class Taza {
+	
+	Liquido liquido;
+	
+}

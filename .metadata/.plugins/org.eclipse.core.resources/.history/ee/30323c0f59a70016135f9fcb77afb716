@@ -1,0 +1,14 @@
+package mx.com.everis.certjava.clases;
+
+/*
+ * import
+ * import static
+ */
+
+
+/*
+ * Modificadores de acceso: private, default(package),protected, public
+ */
+public class Runner extends Person implements{
+
+}

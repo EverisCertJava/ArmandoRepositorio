@@ -1,0 +1,15 @@
+package mx.com.everis.tallerjava.test;
+
+import mx.com.everis.tallerjava.ejemplo.*;
+
+public class Testing extends Persona {
+	public static void main(String[] args){
+		
+	}
+
+	@Override
+	public void getPersona() {
+		// TODO Auto-generated method stub
+		
+	}
+}

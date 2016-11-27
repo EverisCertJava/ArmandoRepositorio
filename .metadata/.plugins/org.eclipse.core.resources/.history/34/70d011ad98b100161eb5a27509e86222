@@ -1,0 +1,6 @@
+package mx.com.everis.tallerjava.interfaz;
+
+public interface PruebaInterfaz {
+	
+	String getNombre();
+}

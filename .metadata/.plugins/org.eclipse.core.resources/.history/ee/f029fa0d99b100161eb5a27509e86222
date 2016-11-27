@@ -1,0 +1,6 @@
+package mx.com.everis.tallerjava.interfaz;
+
+public interface PruebaInterfaz {
+	//String getNombre();//metodo abstracto, no tiene cuerpo, no esta declarado.(Se declara pero no se define)
+	public String getNombre();
+}

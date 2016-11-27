@@ -1,0 +1,11 @@
+package mx.com.everis.tallerjava.clases;
+
+public final class Persona {
+	final String nombre;
+	Persona(){
+		nombre = "Armando2";
+	}
+	void getNombre(String nombre){
+		nombre=nombre;
+	}
+}

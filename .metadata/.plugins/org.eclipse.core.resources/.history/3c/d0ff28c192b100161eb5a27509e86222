@@ -1,0 +1,11 @@
+package mx.com.everis.tallerjava.variables;
+
+import mx.com.everis.tallerjava.staticimport.StaticImport;
+
+public class Test {
+	
+	public static void main (String[] args)
+	{
+		StaticClass.getName();
+	}
+}

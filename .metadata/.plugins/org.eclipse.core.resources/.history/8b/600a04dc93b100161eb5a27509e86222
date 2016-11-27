@@ -1,0 +1,11 @@
+package mx.com.everis.tallerjava.variables;
+
+import static mx.com.everis.tallerjava.staticimport.StaticImport.getName;
+
+public class Test {
+	
+	public static void main (String[] args)
+	{
+		getName();
+	}
+}
