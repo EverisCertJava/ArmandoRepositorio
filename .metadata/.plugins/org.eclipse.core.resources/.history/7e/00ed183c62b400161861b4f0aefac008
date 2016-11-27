@@ -1,0 +1,8 @@
+package mx.com.everis.tallerjava.interfacepadre;
+
+public interface Liquido {
+	public Liquido batir() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

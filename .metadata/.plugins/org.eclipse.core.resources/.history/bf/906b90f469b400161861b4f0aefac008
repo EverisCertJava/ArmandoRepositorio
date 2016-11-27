@@ -1,0 +1,26 @@
+package mx.com.everis.tallerjava.test;
+
+import java.util.ArrayList;
+
+public class TestPolimirfismoInterface{
+	public static ArrayList integrantes = new ArrayList();
+	public static void main(String args[]){
+		
+		Liquido liquidoGeneral = null;
+		Cafe liquidoCafe = null;//Cafe
+		Leche liquidoLeche = null ;//Leche
+		
+		Taza miTaza = new Taza();
+		miTaza.agregarLiquido(liquidoGeneral);
+		miTaza.agregarLiquido(liquidoCafe);
+		miTaza.agregarLiquido(liquidoLeche);
+		miTaza.batir();
+	}
+
+	@Override
+	public void batir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

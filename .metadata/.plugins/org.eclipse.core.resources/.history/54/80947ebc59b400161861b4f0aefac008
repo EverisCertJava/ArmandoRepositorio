@@ -1,0 +1,20 @@
+package mx.com.everis.tallerjava.test;
+
+import com.mx.everis.tallerjava.clasepadre.Liquido;
+import com.mx.everis.tallerjava.claseshijas.Cafe;
+import com.mx.everis.tallerjava.claseshijas.Leche;
+import com.mx.everis.tallerjava.general.Taza;
+
+public class TestPolimirfismoInterface {
+	public static void main(String args[]){
+		
+		Liquido liquidoGeneral = new Liquido();
+		Liquido liquidoCafe=new Cafe();//Cafe
+		Liquido liquidoLeche = new Leche();//Leche
+		
+		Taza miTaza = new Taza();
+		miTaza.agregarLiquido(liquidoGeneral);
+		miTaza.agregarLiquido(liquidoCafe);
+		miTaza.agregarLiquido(liquidoLeche);
+	}
+}

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="library.Book"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.interfacepadre.IntegranteSeleccionFutbol"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.implementapadre.SeleccionFutbol"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.hijas.Entrenador"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.hijas.Futbolista"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.hijas.Masajista"/>
 </qualifiedTypeNameHistroy>

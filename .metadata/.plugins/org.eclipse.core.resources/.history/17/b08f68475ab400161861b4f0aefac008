@@ -1,0 +1,13 @@
+package mx.com.everis.tallerjava.interfaceshijas;
+
+import mx.com.everis.tallerjava.interfacepadre.*;
+
+public class Leche implements Liquido {
+
+	@Override
+	public void batir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

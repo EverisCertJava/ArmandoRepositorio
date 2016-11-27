@@ -2700,3 +2700,95 @@ Caused by: java.io.IOException: Unexpected end of stream
 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
 	at org.eclipse.xtext.builder.builderState.EMFBasedPersister.load(EMFBasedPersister.java:69)
 	... 47 more
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 10001 2016-11-26 22:22:17.168
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.wst.jsdt.internal.ui.JavaUIException: Problems reading information from XML 'OpenTypeHistory.xml'
+	at org.eclipse.wst.jsdt.internal.corext.util.History.createException(History.java:65)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:251)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:161)
+	at org.eclipse.wst.jsdt.internal.corext.util.OpenTypeHistory.<init>(OpenTypeHistory.java:190)
+	at org.eclipse.wst.jsdt.internal.corext.util.OpenTypeHistory.getInstance(OpenTypeHistory.java:176)
+	at org.eclipse.wst.jsdt.internal.ui.JavaScriptPlugin.initializeAfterLoad(JavaScriptPlugin.java:357)
+	at org.eclipse.wst.jsdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:33)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.xml.sax.SAXParseException: Fin prematuro del archivo.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:249)
+	... 6 more
+!SUBENTRY 1 org.eclipse.wst.jsdt.ui 4 4 2016-11-26 22:22:17.168
+!MESSAGE Problems reading information from XML 'OpenTypeHistory.xml'
+!STACK 0
+org.xml.sax.SAXParseException: Fin prematuro del archivo.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:249)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:161)
+	at org.eclipse.wst.jsdt.internal.corext.util.OpenTypeHistory.<init>(OpenTypeHistory.java:190)
+	at org.eclipse.wst.jsdt.internal.corext.util.OpenTypeHistory.getInstance(OpenTypeHistory.java:176)
+	at org.eclipse.wst.jsdt.internal.ui.JavaScriptPlugin.initializeAfterLoad(JavaScriptPlugin.java:357)
+	at org.eclipse.wst.jsdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:33)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 10001 2016-11-27 00:59:10.694
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.wst.jsdt.internal.ui.JavaUIException: Problems reading information from XML 'QualifiedTypeNameHistory.xml'
+	at org.eclipse.wst.jsdt.internal.corext.util.History.createException(History.java:65)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:251)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:161)
+	at org.eclipse.wst.jsdt.internal.corext.util.QualifiedTypeNameHistory.<init>(QualifiedTypeNameHistory.java:33)
+	at org.eclipse.wst.jsdt.internal.corext.util.QualifiedTypeNameHistory.getDefault(QualifiedTypeNameHistory.java:26)
+	at org.eclipse.wst.jsdt.internal.ui.JavaScriptPlugin.stop(JavaScriptPlugin.java:566)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(AccessController.java:280)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:773)
+Caused by: org.xml.sax.SAXParseException: Fin prematuro del archivo.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:249)
+	... 21 more
+!SUBENTRY 1 org.eclipse.wst.jsdt.ui 4 4 2016-11-27 00:59:10.695
+!MESSAGE Problems reading information from XML 'QualifiedTypeNameHistory.xml'
+!STACK 0
+org.xml.sax.SAXParseException: Fin prematuro del archivo.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:249)
+	at org.eclipse.wst.jsdt.internal.corext.util.History.load(History.java:161)
+	at org.eclipse.wst.jsdt.internal.corext.util.QualifiedTypeNameHistory.<init>(QualifiedTypeNameHistory.java:33)
+	at org.eclipse.wst.jsdt.internal.corext.util.QualifiedTypeNameHistory.getDefault(QualifiedTypeNameHistory.java:26)
+	at org.eclipse.wst.jsdt.internal.ui.JavaScriptPlugin.stop(JavaScriptPlugin.java:566)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(AccessController.java:280)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Thread.java:773)

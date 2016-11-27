@@ -1,0 +1,6 @@
+package mx.com.everis.tallerjava.interfaceshijas;
+
+import mx.com.everis.tallerjava.interfacepadre.*;
+
+public interface Leche extends Liquido {
+}
