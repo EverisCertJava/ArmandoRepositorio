@@ -1,0 +1,9 @@
+package mx.com.everis.tallerjava.fabrica;
+
+import mx.com.everis.tallerjava.claseshijas.*;
+
+public class ShapeFactory {
+	public void getShape(){
+		
+	}
+}
