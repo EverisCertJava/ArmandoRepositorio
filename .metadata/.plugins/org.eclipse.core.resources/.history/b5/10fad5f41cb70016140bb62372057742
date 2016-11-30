@@ -1,0 +1,27 @@
+package mx.com.everis.tallerjava.test;
+
+import mx.com.everis.tallerjava.enums.TamaioCaffe;
+import mx.com.everis.tallerjava.enums.PreciosCaffe;
+
+public class TestEnum {
+	public static void main(String[] args){
+		/*System.out.println("--ENUM--");
+		System.out.println(TamaioCaffe.CHICO.getValue());
+		System.out.println(TamaioCaffe.MEDIANO.getValue());
+		System.out.println(TamaioCaffe.GRANDE);*/
+		
+		/* decidir de que tamaño es el vaso de cafe (switch o if) */
+		String tamanio = "GRANDE";
+		System.out.println(TamaioCaffe.GRANDE);
+		if (tamanio.equalsIgnoreCase(TamaioCaffe.CHICO.toString())){
+			System.out.println(TamaioCaffe.CHICO.getValue()+PreciosCaffe.CHICO.getValue());
+		}else if (tamanio.equals(TamaioCaffe.MEDIANO.toString())){
+			System.out.println(TamaioCaffe.MEDIANO.getValue()+PreciosCaffe.MEDIANO.getValue());
+		}else if(tamanio.equals(TamaioCaffe.GRANDE.toString())){
+			System.out.println(TamaioCaffe.GRANDE.getValue()+PreciosCaffe.GRANDE.getValue());
+		}else{
+			System.out.println("no existe el tamaño");
+		}
+		
+	}
+}

@@ -1,0 +1,21 @@
+package mx.com.everis.tallerjava.enums;
+
+public enum TamaioCaffe {
+	/**/
+	CHICO("chico"),
+	
+	/**/
+	MEDIANO("mediano"),
+	
+	/**/
+	GRANDE("grande");
+	private String mensaje;
+	
+	private TamaioCaffe(String tamanio){
+		this.mensaje = tamanio;
+	}
+	
+	String getValue(){
+		return this.mensaje;
+	}
+}

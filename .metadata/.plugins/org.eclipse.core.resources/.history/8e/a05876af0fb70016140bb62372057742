@@ -1,0 +1,21 @@
+package mx.com.everis.tallerjava.fabrica;
+
+import mx.com.everis.tallerjava.claseshijas.*;
+import mx.com.everis.tallerjava.inter.Shape;
+
+public class ShapeFactory {
+	public Shape getShape(String Forma){
+		if (Forma.equalsIgnoreCase("Circle")) {
+			return new Circle();
+
+		} else if (Forma.equalsIgnoreCase("Rectangle")) {
+			return new Rectangle();
+
+		} else if (Forma.equalsIgnoreCase("Square")) {
+			return new Square();
+		}
+		else{
+			return null;
+		}
+	}
+}

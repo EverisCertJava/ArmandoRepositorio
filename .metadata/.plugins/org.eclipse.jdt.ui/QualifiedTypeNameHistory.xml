@@ -8,4 +8,10 @@
 <fullyQualifiedTypeName name="mx.com.everis.tallerjava.hijas.Entrenador"/>
 <fullyQualifiedTypeName name="mx.com.everis.tallerjava.hijas.Futbolista"/>
 <fullyQualifiedTypeName name="mx.com.everis.tallerjava.hijas.Masajista"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.fabrica.ShapeFactory"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.inter.Shape"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="mx.com.everis.tallerjava.enums.TamaioCaffe"/>
 </qualifiedTypeNameHistroy>

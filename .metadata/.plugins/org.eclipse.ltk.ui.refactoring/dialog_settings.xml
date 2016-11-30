@@ -9,4 +9,8 @@
 		<item value="489" key="DIALOG_HEIGHT"/>
 		<item value="804" key="DIALOG_WIDTH"/>
 	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="*" key="patterns"/>
+		<item value="false" key="moveWizard.updateQualifiedNames"/>
+	</section>
 </section>

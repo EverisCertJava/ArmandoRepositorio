@@ -1,0 +1,21 @@
+package mx.com.everis.tallerjava.enums;
+
+public enum TamaioCaffe {
+	/**/
+	CHICO("Tamaño chico con costo de 15 pesos"),
+	
+	/**/
+	MEDIANO("Tamaño mediano con costo de 25 pesos"),
+	
+	/**/
+	GRANDE("Tamaño grande con costo de 30 pesos");
+	private String mensaje;
+	
+	private TamaioCaffe(String tamanio){
+		this.mensaje = tamanio;
+	}
+	
+	public String getValue(){
+		return this.mensaje;
+	}
+}

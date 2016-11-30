@@ -1,0 +1,11 @@
+package mx.com.everis.tallerjava.test;
+
+import mx.com.everis.tallerjava.enums.TamaioCaffe;
+
+public class TestEnum {
+	public static void main(String[] args){
+		System.out.println("--ENUM--");
+		System.out.println(TamaioCaffe.CHICO);
+		
+	}
+}
