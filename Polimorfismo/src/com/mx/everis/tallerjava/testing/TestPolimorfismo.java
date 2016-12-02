@@ -7,6 +7,7 @@ import com.mx.everis.tallerjava.general.*;
 public class TestPolimorfismo {
 	public static void main(String args[]){
 		
+		//Ejemplo de polimorfismo.
 		Liquido liquidoGeneral = new Liquido();
 		Liquido liquidoCafe=new Cafe();//Cafe
 		Liquido liquidoLeche = new Leche();//Leche
