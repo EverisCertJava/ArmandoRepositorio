@@ -1,0 +1,36 @@
+package mx.com.everis.arma.sherlock;
+
+import java.util.Scanner;
+
+public class WatsonSherlock {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Otorga n(longitud del arreglo),k(numero de vueltas) y m(numero de preguntas)");
+		int n=sc.nextInt();
+		int k=sc.nextInt();
+		int m=sc.nextInt();
+		int ar[] =new int[n];
+		System.out.println("Otorga los datos del vector:");
+		Scanner sv = new Scanner(System.in);
+		//introducimos los datos al vector
+		for (int i=0; i<ar.length; i++){
+			ar[i]=sv.nextInt();
+			System.out.println("Dato del vector: "+ar[i] );
+		}
+		//Damos las vueltas que solicitan
+		int tmp;
+		for (int j=0;j<k;j++){
+			tmp=ar[ar.length-1];
+			for (int l=0;l<ar.length-1;l++){
+				ar[l+1]=ar[l];
+			}
+			ar[0]=tmp;
+		}
+		for(int i=0;i<m;i++){
+			int borr=i+1;
+			System.out.println("Otorga la pregunta: "+borr);
+			
+		}
+	}
+}

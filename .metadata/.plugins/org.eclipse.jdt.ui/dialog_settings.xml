@@ -26,14 +26,17 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="/home/everis/develop/workspaces/certificacionJava" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="CambioHora - RetoSemanaHora" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="/home/everis/Desktop/RetoSemanaHora.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="WatsonSherlock - RetoSemanaSherlock" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="/home/everis/Desktop/RetoSemanaSherlock.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/home/everis/Desktop/RetoSemanaSherlock.jar"/>
+			<item value="/home/everis/Desktop/RetoSemanaHor.jar"/>
 			<item value="/home/everis/Desktop/RetoSemanaHora.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="/home/everis/develop/workspaces/certificacionJava.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
